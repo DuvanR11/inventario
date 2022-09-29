@@ -57,7 +57,7 @@
       "price": 45,
       "description": "Learn the essentials and more of TypeScript, a popular superset of the JavaScript language that adds support for static typing. TypeScript combines the typing features of C# or Java.",
       "categoryId": 1,
-      "stock": -2
+      "stock": -5
     },
     {
       "id": 2,
@@ -65,7 +65,7 @@
       "price": 5,
       "description": "En Hackeando del cerebro de tus compradores, Corti nos revela cómo muchas compañías crean productos digitales o procesos de venta capaces de conectar con la psicología del comprador.",
       "categoryId": 1,
-      "stock": 10
+      "stock": 7
     },
     {
       "id": 3,
@@ -73,7 +73,7 @@
       "price": 17,
       "description": "In this book, the reader will be able to focus on one concept of Angular in deep.",
       "categoryId": 1,
-      "stock": 10
+      "stock": 9
     },
     {
       "id": 4,
@@ -163,6 +163,19 @@
       "date": "5/8/2022",
       "isDelivery": false,
       "id": 4
+    },
+    {
+      "name": "haaa",
+      "store": {
+        "id": 2,
+        "name": "Store Alcalá",
+        "address": "Calle de Alcalá, 21",
+        "city": "Madrid",
+        "openingHours": "10:00 - 14:00 and 17:00 - 20:30"
+      },
+      "date": "29/8/2022",
+      "isDelivery": false,
+      "id": 5
     }
   ],
   "detailsOrders": [
@@ -186,6 +199,11 @@
       "details": [],
       "orderId": 4,
       "id": 4
+    },
+    {
+      "details": [],
+      "orderId": 5,
+      "id": 5
     }
   ]
 }
